@@ -6,7 +6,7 @@
   * To fill the folder we created a Colab Notebook, that takes image data from Kaggle API and performs pre-processing on the data.
   * The link is located below or here: 
     * [![Open Pre-Process Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/157g4Gju2nhtRn-tOSIiTjFrhU8cq8_Sj?usp=sharing)
-    * We have taken 5 large datasets from Kaggle API which were pre-processed to 10 different datasets (the other datasets were taken from Keras API).   
+    * We have taken 5 large datasets from Kaggle API which were pre-processed to 10 different datasets (the other 10 datasets were taken from Keras API).   
   * After all of the pre-process is completed you can run the project.py  
 * To start the project.py 
 
