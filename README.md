@@ -1,12 +1,12 @@
 # Applied-Machine-Learning-Project-2021
 
+## instructions 
+
+
 ## link to Colab Pre-Process Notebook for the project
-[Colab Pre-Process Notebook](https://colab.research.google.com/drive/157g4Gju2nhtRn-tOSIiTjFrhU8cq8_Sj?usp=sharing)
 
 
-
-
-
+[![Open Pre-Process Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/157g4Gju2nhtRn-tOSIiTjFrhU8cq8_Sj?usp=sharing)
 
 ## Citation
 ```
