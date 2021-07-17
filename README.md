@@ -10,11 +10,11 @@
   * The link is located below or here: 
     * [![Open Pre-Process Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/157g4Gju2nhtRn-tOSIiTjFrhU8cq8_Sj?usp=sharing)
     * We have taken 5 large datasets from Kaggle API which were pre-processed to 10 different datasets (the other 10 datasets were taken from Keras API). 
- ## Running the program Project  
+ ## Running the Project (The algorithms) 
   * In order to choose the algorithm (VGG, Masksembles or the transfer learning) you need to change the flag_vgg and flag_improve
   *  **NOTICE: Lines 513-520 contain instructions**
   * After all of the pre-process is completed you can **run the project.py**.
- ## Running Statistics
+ ## Running Statistics (Parts 5 and 6 in our project)
  * From line 288, each function has an instruction if you wish to run it. 
  * **NOTICE: it requires to uncomment the line of the function**
 
