@@ -6,7 +6,7 @@
 * Run pip install git+http://github.com/nikitadurasov/masksembles
 * **NOTICE: you may need to write pip3 instead of pip**
 ## The Data
-  * **NOTICE: The data is too heavy, so we can't upload all of the datasets to Github, further instruction are mentioned below**
+  * **NOTICE: If you clone the entire project including the Csv_Data, you don't need to take any further action**
   * Before running project.py it requires **filling the Csv_Data folder with valid data**.
   * To fill the folder we created a **Colab Notebook**, that takes **data images from Kaggle API** and performs pre-processing on the data.
   * The link is located below or here: 
