@@ -1,0 +1,31 @@
+Dataset Name,Algorithm Name,Cross Validation,Hyper-Parameters Values,Accuracy,TPR,FPR,Precision,AUC,PR-Curve,Training Time,Inference Time
+cifar_7,Mask_VGG_Improved_Tomer,1,"Learning Rate: 0.002864380994746495
+Activation:  elu
+Optimizer: adam",0.6875,0.649264069,0.078086268,0.711818182,0.874276377,0.659534233,33.73106575,0.25806284
+cifar_7,Mask_VGG_Improved_Tomer,2,"Learning Rate: 0.015009187848123393
+Activation:  relu
+Optimizer: sgd",0.208333333,0.201098901,0.192799964,0.208571429,0.57534533,0.253355897,75.45973539,0.38242197
+cifar_7,Mask_VGG_Improved_Tomer,3,"Learning Rate: 0.001351860239884749
+Activation:  elu
+Optimizer: adam",0.5625,0.513629149,0.104469093,0.567070707,0.881761378,0.669294189,39.91801238,0.280365229
+cifar_7,Mask_VGG_Improved_Tomer,4,"Learning Rate: 0.011122744094242912
+Activation:  elu
+Optimizer: adam",0.25,0.375,0.173372093,0,0.569518886,0.297854938,37.53738856,0.452926159
+cifar_7,Mask_VGG_Improved_Tomer,5,"Learning Rate: 0.0054954051594253905
+Activation:  elu
+Optimizer: adam",0.770833333,0.812307692,0.054652015,0.778484848,0.957213761,0.870910304,59.59823775,0.229743719
+cifar_7,Mask_VGG_Improved_Tomer,6,"Learning Rate: 0.026571669636630074
+Activation:  relu
+Optimizer: RMSprop",0.208333333,0.186666667,0.203903904,0.114666667,0.452041133,0.231005522,60.73878479,0.21978879
+cifar_7,Mask_VGG_Improved_Tomer,7,"Learning Rate: 0.0010869645316081869
+Activation:  elu
+Optimizer: RMSprop",0.645833333,0.603108003,0.09007821,0,0.88028805,0.755186876,38.93796229,0.438428164
+cifar_7,Mask_VGG_Improved_Tomer,8,"Learning Rate: 0.05881541067338545
+Activation:  relu
+Optimizer: adam",0.104166667,0.2,0.2,0,0.551677098,0.364989177,43.76635575,0.312073708
+cifar_7,Mask_VGG_Improved_Tomer,9,"Learning Rate: 0.02143100760479461
+Activation:  relu
+Optimizer: adam",0.208333333,0.283333333,0.183074935,0,0.617814497,0.400594136,22.43084383,0.238642216
+cifar_7,Mask_VGG_Improved_Tomer,10,"Learning Rate: 0.03495351256076091
+Activation:  relu
+Optimizer: adam",0.208333333,0.2,0.2,0,0.406736874,0.328818851,21.5236485,0.280595064

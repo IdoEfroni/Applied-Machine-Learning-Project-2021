@@ -1,0 +1,31 @@
+Dataset Name,Algorithm Name,Cross Validation,Hyper-Parameters Values,Accuracy,TPR,FPR,Precision,AUC,PR-Curve,Training Time,Inference Time
+monkey,Mask_VGG_Improved,1,"Learning Rate: 0.04919168000058536
+Activation:  relu
+Optimizer: adam",0.0625,0.1,0.1,0,0.5,0.55,79.56087661,0.340759754
+monkey,Mask_VGG_Improved,2,"Learning Rate: 0.0010981120663594354
+Activation:  elu
+Optimizer: adam",0.3125,0.357301587,0.075392446,0.255681818,0.72730111,0.327246,60.14769864,0.469339609
+monkey,Mask_VGG_Improved,3,"Learning Rate: 0.01242523587378072
+Activation:  elu
+Optimizer: RMSprop",0,0,0.107601026,0,0.51580328,0.195994,54.58907747,0.350026369
+monkey,Mask_VGG_Improved,4,"Learning Rate: 0.013987004752322394
+Activation:  relu
+Optimizer: sgd",0.0625,0.058730159,0.10512549,0.048809524,0.423744991,0.09396171,59.72677016,0.287063122
+monkey,Mask_VGG_Improved,5,"Learning Rate: 0.0011768564115770552
+Activation:  elu
+Optimizer: adam",0.328125,0.308917749,0.07481281,0.333334998,0.746269513,0.307443064,54.52351928,0.33344245
+monkey,Mask_VGG_Improved,6,"Learning Rate: 0.007796845784073321
+Activation:  elu
+Optimizer: RMSprop",0.1875,0.2,0.090145278,0.06962963,0.50100864,0.143010393,27.91678929,0.307181835
+monkey,Mask_VGG_Improved,7,"Learning Rate: 0.0058941977806100075
+Activation:  relu
+Optimizer: sgd",0.109375,0.086666667,0.104216764,0.047808442,0.438262545,0.109977719,24.00760937,0.325203657
+monkey,Mask_VGG_Improved,8,"Learning Rate: 0.0010697785124042358
+Activation:  elu
+Optimizer: adam",0.375,0.388690476,0.069237894,0.371468254,0.791469971,0.402880777,81.49842954,0.264295816
+monkey,Mask_VGG_Improved,9,"Learning Rate: 0.00127089272342027
+Activation:  relu
+Optimizer: sgd",0.203125,0.155555556,0.089241568,0,0.614735206,0.190089369,28.82572079,0.290156603
+monkey,Mask_VGG_Improved,10,"Learning Rate: 0.0656026075796306
+Activation:  elu
+Optimizer: adam",0.203125,0.225,0.08939758,0,0.577865352,0.232521458,79.4579525,0.322425365
