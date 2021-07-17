@@ -17,6 +17,12 @@
 
 [![Open Pre-Process Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/157g4Gju2nhtRn-tOSIiTjFrhU8cq8_Sj?usp=sharing)
 
+## External Repositories
+
+Our project is based on two main repositories:
+1. Masksembles - https://github.com/nikitadurasov/masksembles
+2. Bayesian Search - https://towardsdatascience.com/bayesian-hyper-parameter-optimization-neural-networks-tensorflow-facies-prediction-example-f9c48d21f795
+
 ## Citation
 ```
 @inproceedings{Durasov21,
