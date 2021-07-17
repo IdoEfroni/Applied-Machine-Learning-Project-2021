@@ -120,6 +120,30 @@ def find_variance_parameters(categories):
         print(f"Category: {key}  Variance: {dict_params[key]}")
 
 
+def calculate_avg_rank_max(vgg_l, improve_l, mask_l):
+    """
+    checks the average rank in measurements that checks the max value
+    :param vgg_l: values of vgg
+    :param improve_l: values of transfer learning
+    :param mask_l: values of masksembles
+    :return: the average rank
+    """
+    rank_vgg = 0
+    rank_improve = 0
+    rank_mask = 0
+    for v, i, m in zip(vgg_l, improve_l, mask_l):
+        temp = [v, i, m]
+        sorted(temp)
+        rank_mask += temp.index(m)
+        rank_improve += temp.index(i)
+        rank_vgg += temp.index(v)
+    print(f"Average Rank of VGG: {np.round(rank_vgg/len(vgg_l), 4)}"+"\n"+
+          f"Average Rank of Masksembles: {np.round(rank_mask/len(mask_l), 4)}"+"\n"+
+          f"Average Rank of Transfer Learining:{np.round(rank_improve/len(improve_l), 4)}")
+
+
+
+
 def calculate_post_hoc(category):
     """
     the function calculates post hoc test to decide which algorithm is better
@@ -142,6 +166,8 @@ def calculate_post_hoc(category):
     all_name = mask + imp + vgg_n
     df['Algorithm'] = all_name
     print(sp.posthoc_ttest(df, val_col=category, group_col='Algorithm', p_adjust='holm'))
+    print()
+    calculate_avg_rank_max(vgg_l, improved_l, mask_l)
 
 
 def find_the_best_algo(categories, file_name, highValue=False, report=False):
@@ -262,7 +288,7 @@ def correlation_between_size_and_cat(category):
 # Remove from comment if you want to calculate the Tests
 # find_variance_parameters(['AUC', 'Accuracy', 'PR-Curve'])
 # print("Friedman Test:")
-# calculate_friedman("PR-Curve")
+# calculate_friedman("AUC")
 # print()
 # print("Post Hoc Test:")
 # calculate_post_hoc("AUC")
