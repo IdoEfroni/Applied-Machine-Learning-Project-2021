@@ -3,6 +3,7 @@
 ## Instructions
 * To activate the different algorithms and get the results you must run the **project.py**.
 * Install the requirements of the project (pip install requirements.txt)
+* Run pip install git+http://github.com/nikitadurasov/masksembles
   * Before running project.py it requires **filling the Csv_Data folder with valid data**.
   * To fill the folder we created a **Colab Notebook**, that takes **data images from Kaggle API** and performs pre-processing on the data.
   * The link is located below or here: 
