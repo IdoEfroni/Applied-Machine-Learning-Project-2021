@@ -12,6 +12,7 @@
   * The link is located below or here: 
     * [![Open Pre-Process Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/157g4Gju2nhtRn-tOSIiTjFrhU8cq8_Sj?usp=sharing)
     * We have taken 5 large datasets from Kaggle API which were pre-processed to 10 different datasets (the other 10 datasets were taken from Keras API). 
+    * **NOTICE: Don't forget to put the CSV that were generated in colab, into the folder Csv_Data**
  ## Running the Project (The algorithms) 
   * In order to choose the algorithm (VGG, Masksembles or the transfer learning) you need to change the flag_vgg and flag_improve
   *  **NOTICE: Lines 513-520 contain instructions**
