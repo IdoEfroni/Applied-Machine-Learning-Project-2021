@@ -1,6 +1,6 @@
 # Applied-Machine-Learning-Project-2021
 
-## Instructions
+## Installation
 * To activate the different algorithms and get the results you must run the **project.py**.
 * Install the requirements of the project (pip install requirements.txt)
 * Run pip install git+http://github.com/nikitadurasov/masksembles
@@ -9,9 +9,14 @@
   * To fill the folder we created a **Colab Notebook**, that takes **data images from Kaggle API** and performs pre-processing on the data.
   * The link is located below or here: 
     * [![Open Pre-Process Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/157g4Gju2nhtRn-tOSIiTjFrhU8cq8_Sj?usp=sharing)
-    * We have taken 5 large datasets from Kaggle API which were pre-processed to 10 different datasets (the other 10 datasets were taken from Keras API).   
+    * We have taken 5 large datasets from Kaggle API which were pre-processed to 10 different datasets (the other 10 datasets were taken from Keras API). 
+ ## Running the program Project  
   * In order to choose the algorithm (VGG, Masksembles or the transfer learning) you need to change the flag_vgg and flag_improve
-  * After all of the pre-process is completed you can **run the project.py**.  
+  *  **NOTICE: Lines 513-520 contain instructions
+  * After all of the pre-process is completed you can **run the project.py**.
+ ## Running Statistics
+ * From line 288, each function has an instruction if you wish to run it. 
+ * **NOTICE: it requires to uncomment the line of the function**
 
 
 ## link to Colab Pre-Process Notebook for the project
