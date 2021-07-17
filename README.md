@@ -12,7 +12,7 @@
     * We have taken 5 large datasets from Kaggle API which were pre-processed to 10 different datasets (the other 10 datasets were taken from Keras API). 
  ## Running the program Project  
   * In order to choose the algorithm (VGG, Masksembles or the transfer learning) you need to change the flag_vgg and flag_improve
-  *  **NOTICE: Lines 513-520 contain instructions
+  *  **NOTICE: Lines 513-520 contain instructions**
   * After all of the pre-process is completed you can **run the project.py**.
  ## Running Statistics
  * From line 288, each function has an instruction if you wish to run it. 
